@@ -1,0 +1,25 @@
+1) Edge AI видеонаблюдение
+    Най-добро: Jetson Nano
+    Причина: има NVIDIA GPU (CUDA cores) и е супер удобен за модели за видео (object detection, tracking) + TensorRT 
+    оптимизации. Реално е направен точно за “AI at the edge”.
+
+    BeagleBone AI-64 също може, но Jetson е по-популярен за camera+AI stack и има повече готови примери/оптимизации.
+    Raspberry Pi 4 става, но без ускорител ще е по-бавно (освен ако не добавиш Coral/Movidius).
+
+
+2) Индустриален гейтуей
+    Най-добро: BeagleBone AI-64
+    Причина: BeagleBone е силен за индустриални/embedded use-cases, има по-“хардуерно” насочена екосистема и M7 
+    ядрата са полезни за реалновременни задачи (сензори/fieldbus логика), докато A53 върши “Linux/edge” частта.
+
+    Raspberry Pi 4 също е ок за gateway (MQTT, Node-RED, Docker), но BeagleBone е по-близо до индустриалното мислене.
+    Jetson е overkill за gateway, освен ако gateway-то не прави тежък AI inference.
+
+
+3) Образователни цели
+    Най-добро: Raspberry Pi 4 
+    Причина: най-лесно се започва, най-много туториали/курсове, огромна community, супер за Linux, Python, GPIO, 
+    IoT и basic edge приложения.
+
+    Jetson Nano е много добър за обучение по AI/Computer Vision (ако това е фокусът).
+    BeagleBone AI-64 е по-специализиран и обикновено се ползва повече за embedded/industrial насочени курсове.
