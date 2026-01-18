@@ -1,0 +1,17 @@
+1) Verilog решение (Half Adder)
+
+Отговор: Ето минимален работещ Verilog модул за Half Adder.
+
+Обяснение: assign описва комбинаторна логика; XOR дава сумата без пренос, AND дава преноса.
+
+module HalfAdder (
+    input  wire A,
+    input  wire B,
+    output wire Sum,
+    output wire Carry
+);
+    assign Sum   = A ^ B;  // XOR
+    assign Carry = A & B;  // AND
+endmodule
+
+2) (table.png) 

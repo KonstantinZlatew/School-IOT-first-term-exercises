@@ -1,0 +1,7 @@
+Оригинално съобщение: Firmware Update v2.0 - Secret Code: 1234
+Криптирано (в паметта): b'gAAAAABpbVmFKyzvEFu9xoTMwsFKR0dHZ4u0gslZTR-8mk_GH5qBnX6-sqZDjk1WXCTQKbm9G996yP_QNDmeVfjXfvfxEtelWLhULx3nSpKY5y3ZIHgo2zgWnnWnxE9dEh95q3GGEgbe'
+Декриптирано легално: Firmware Update v2.0 - Secret Code: 1234
+
+[!] ГРЕШКА при хакване: Невалиден ключ! ()
+
+Извод: Без достъп до хардуерния ключ, данните не могат да бъдат декриптирани.
